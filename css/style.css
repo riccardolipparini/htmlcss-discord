@@ -7,3 +7,43 @@
 body{
     font-family: 'Libre Franklin', sans-serif;
 }
+/* header */
+header{
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    /* debug */
+    background-color: rgb(70, 43, 226);
+}
+#menù{
+    width: 70%;
+    margin: 0 auto;
+    /* debug */
+    background-color: coral;
+    height: 100px;
+}
+#jumbotron{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* debug */
+    background-color: coral;
+    height: 300px;
+}
+
+/* main */
+.sezioni{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 200px;
+    /* debug */
+    background-color: coral;
+    height: 400px;
+}
+.immagine{
+    float: left;
+    width: 60%;
+    /* debug */
+    height: 400px;
+    background-color: cornflowerblue;
+}
