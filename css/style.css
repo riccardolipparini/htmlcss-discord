@@ -32,7 +32,10 @@ header{
 }
 
 /* main */
-.sezioni{
+.sezioni::after{
+    clear: both;
+    display: table;
+    clear: both;
     width: 70%;
     margin: 0 auto;
     margin-top: 200px;
