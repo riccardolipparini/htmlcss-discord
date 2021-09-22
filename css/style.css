@@ -6,22 +6,52 @@
 
 body{
     font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
 }
 /* header */
 header{
     width: 100%;
     margin: 0 auto;
-    height: 500px;
+    height: 650px;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover
     /* debug */
-    background-color: rgb(70, 43, 226);
+    /* background-color: rgb(70, 43, 226); */
 }
 #menù{
+    position: relative;
     width: 70%;
     margin: 0 auto;
     /* debug */
-    background-color: coral;
-    height: 100px;
+    /* background-color: coral;
+    height: 100px; */
 }
+#logo{
+    vertical-align: middle;
+}
+
+li, a, ul{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 10px 8px;
+}
+ul{
+    margin-left: 250px;
+}
+#accedi{
+    border-radius: 40px;
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    padding: 10px;
+}
+#accesstext{
+    color: rgb(33, 83, 129);
+}
+
 #jumbotron{
     width: 50%;
     margin: 0 auto;
