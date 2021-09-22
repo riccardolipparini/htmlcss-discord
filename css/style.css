@@ -32,21 +32,95 @@ header{
 }
 
 /* main */
-.sezioni::after{
-    clear: both;
+.container{
+    width: 70%;
+    margin: 0 auto;
+    /* debug */
+    
+}
+
+/* .sezioni{
+    margin-top: 200px;
+} */
+.clearfix:after{
+    content: "";
     display: table;
     clear: both;
+}
+
+.immagine{
+    float: left;
+    width: 58%;
+    margin: 0 1%;
+    margin-top: 200px;
+    /* debug */
+   background-color: cornflowerblue;
+   height: 200px;
+}
+
+.descrizione{
+    float: left;
+    width: 40%;
+    margin-top: 200px;
+    /* debug */
+    background-color: cornflowerblue;
+    height: 200px;
+}
+
+.vertical0{
     width: 70%;
     margin: 0 auto;
     margin-top: 200px;
     /* debug */
-    background-color: coral;
-    height: 400px;
+    background-color: cornflowerblue;
+    height: 150px;
 }
-.immagine{
-    float: left;
-    width: 60%;
+
+.vertical1{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
     /* debug */
-    height: 400px;
+    background-color: cornflowerblue;
+    height: 300px;
+}
+
+#ready{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 70px;
+    /* debug */
+    background-color: cornflowerblue;
+    height: 150px;
+}
+
+/* footer */
+
+.finalcolumn0{
+    float: left;
+    width: 30%;
+    margin-top: 50px;
+    /* debug */
+    height: 150px;
+    background-color: darkblue;
+}
+
+.finalcolumn1{
+    float: left;
+    width: calc(70% / 4);
+    margin-top: 50px;
+    /* debug */
+    height: 150px;
+    background-color: darkcyan;
+}
+
+.social{
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 50px;
+    border-top: solid .5px cornflowerblue;
+    padding: 50px;
+    /* debug */
+    height: 100px;
     background-color: cornflowerblue;
 }
